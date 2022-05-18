@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <label for="firstname">First name:</label><br>
+        <input type="text" id="firstname" name="firstname"><br>
+        <label for="lastname">Last name:</label><br>
+        <input type="text" id="lastname" name="lastname"><br>
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" name="age"><br>
+        <br>
+        <!-- Radio button - only one option can be selected -->
+        <h4>Sweet or Savoury?</h4>
+        <input type="radio" id="sweet" name="fav_food" value="sweet">
+        <label for="sweet">Sweet</label><br>
+        <input type="radio" id="savoury" name="fav_food" value="savoury">
+        <label for="savoury">Savoury</label><br>
+        <br>
+        <!-- Check box - multiple options can be selected -->
+        <h4>Holiday preferences?</h4>
+        <input type="checkbox" id="dest1" name="dest1" value="staycation">
+        <label for="dest1"> I like staycations</label><br>
+        <input type="checkbox" id="dest2" name="dest2" value="beach">
+        <label for="dest2"> I like beach trips</label><br>
+        <input type="checkbox" id="dest3" name="dest3" value="city">
+        <label for="dest3"> I like city breaks</label>
+        <br>
+        <!-- Submit allows for data to be submitted to a form handler -->
+        <!-- <form action="form handler specified in this action attribute" -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
