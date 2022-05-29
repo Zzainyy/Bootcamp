@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-weight: 100;
+    font-family: 'Harry Potter', sans-serif;
+
+
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    height: 80vh;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.banner-text {
+    font-size: 5vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+nav {
+    height: 25px;
+    display: flex;
+    align-items: inherit, center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding: 0.5vh 5vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav li:hover {
+    border-color: #cd7771;
+    background: #cd7771;
+    font-weight: 2;
+    height: 25px;
+}
+
+
+.topic {
+    margin: 0;
+    padding: 5vh;
+    text-align: center;
+    font-size: 50px;
+}
+
+.flex-main {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.tile {
+    height: auto;
+    width: 35vw;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+div img {
+    height: auto;
+    width: 35vw;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.testimonials {
+    padding: 10vh 0;
+    text-align: center;
+    width: 100vw;
+    height: 100px;
+}
+
+.testimonials h1 {
+    font-size: 40px;
+}
+
+.testimonials p {
+    padding: 4vh;
+}
