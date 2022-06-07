@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 5px;
+    color: #fff;
+}
+
+.scene {
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.scene img {
+    position: absolute;
+}
+
+.city {
+    bottom: 0px;
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.plane {
+    top: 60px;
+    left: 10px;
+    width: 45%;
+    animation: plane-move 15s linear infinite forwards;
+}
+
+.cloud {
+    animation: cloud-move 25s linear infinite forwards;
+}
+
+.cloud1 {
+    width: 20%;
+    top: 0;
+    left: 20px;
+}
+
+.cloud2 {
+    width: 10%;
+    top: 0;
+    left: 50%;
+}
+
+.cloud3 {
+    width: 20%;
+    top: 0;
+    right: 0;
+}
+
+.boat {
+    width: 30%;
+    bottom: 0;
+    right: 10px;
+    animation: boat-move 30s linear forwards infinite;
+}
+
+@keyframes cloud-move {
+    to {
+        transform: translateX(75px);
+    }
+}
+
+@keyframes plane-move {
+    from {
+        width: 45%;
+    }
+    to {
+        width: 15%;
+        transform: translate(80vw, -50px);
+    }
+}
+
+@keyframes boat-move {
+    to {
+        transform:
+            translateX(-300px);
+    }
+}
